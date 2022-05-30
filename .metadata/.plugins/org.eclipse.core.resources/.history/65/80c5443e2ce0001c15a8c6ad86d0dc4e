@@ -1,0 +1,9 @@
+package javaBasico;
+
+public class SegundoProgramaJava {
+
+	public static void main(String args[]) {
+		int numero=710;
+		System.out.print("Valor da variavel numero: "+numero);
+	}
+}

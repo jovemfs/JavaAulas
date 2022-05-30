@@ -1,0 +1,12 @@
+package javaBasico;
+
+public class SegundoProgramaJava {
+
+	public static void main(String args[]) {
+		int n1=710;
+		int n2=520;
+		System.out.print("Ola, bem-vindo ao terminal! | ");
+		System.out.print("Valor da variavel n1: "+n1);
+		System.out.print("Valor da variavel n2: "+n2);
+	}
+}

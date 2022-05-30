@@ -1,0 +1,8 @@
+package javaBasico;
+
+public class SegundoProgramaJava {
+	
+	public static void main(String args[]) {
+		System.out.print("moura moura moura moura");
+	}
+}

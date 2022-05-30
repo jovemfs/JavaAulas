@@ -1,0 +1,14 @@
+package javaBasico;
+
+public class TerceiroProgramaJava {
+
+	public static void main(String args[]) {
+		int n1=710;
+		int n2=520;
+		int soma=n1+n2;
+		System.out.print("Soma de valores | ");
+		System.out.print("Valor da variavel n1: "+n1);
+		System.out.print(" | Valor da variavel n2: "+n2);
+		System.out.print(" | Soma dos valores: "+soma);
+	}
+}
