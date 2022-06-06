@@ -17,5 +17,7 @@ public class Ex09 {
 		float salarioFinal = salario+aumento;
 
 		System.out.println("O novo salário, já com o aumento, será R$ "+salarioFinal);
+		
+		sc.close();
 	}
 }

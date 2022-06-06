@@ -1,0 +1,37 @@
+package Apostila;
+
+import java.util.Scanner;
+
+public class EX43 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		float a,b,c;
+		String mens;
+
+		System.out.println("Valor de A: ");
+		a = sc.nextFloat();
+		
+		System.out.println("Valor de B: ");
+		b = sc.nextFloat();
+		
+		System.out.println("Valor de C: ");
+		c = sc.nextFloat();
+		
+		if ((a < b+c) && (b <a+c) && (c <a+b)){
+		    if((a==b) && (b==c)){
+		        mens = "Triângulo EQUILÁTERO.";
+		    } else if ((a==b) || (b==c) || (a==c)){
+		        mens = "Triângulo ISOCELES.";
+		    } else {
+		        mens = "Triângulo ESCALENO.";
+		    }
+		} else {
+		    mens = "NÃO FORMA um triângulo.";
+		}
+		
+		System.out.println(mens);
+		
+		sc.close();
+	}
+}
